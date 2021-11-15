@@ -1,0 +1,106 @@
+footer {
+    background-color: $footer-color;
+
+
+    .footer-section {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 2rem 1rem;
+        padding-top: 100px;
+
+        .help-support {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+
+            a {
+                font-weight: 100;
+                font-size: 1.3rem;
+
+                &:hover {
+                    color: $primary-colors;
+                    transition: all 500ms ease-in-out;
+                }
+            }
+
+        }
+
+        .contact-us {
+            display: flex;
+            flex-direction: column;
+
+            h3 {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+
+            a {
+                font-weight: 100;
+                font-size: 1.3rem;
+
+                &:hover {
+                    color: $primary-colors;
+                    transition: all 500ms ease-in-out;
+                }
+            }
+        }
+
+        .social-media {
+            display: flex;
+            flex-direction: column;
+
+
+            .social-media-img {
+                padding: 10px 0;
+
+                .fab {
+                    font-size: 3rem;
+                    padding: 0 10px;
+                }
+
+            }
+
+            h3 {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+
+            a {
+                font-weight: 100;
+                font-size: 1.3rem;
+
+                &:hover {
+                    color: $primary-colors;
+                    transition: all 500ms ease-in-out;
+                }
+            }
+
+        }
+
+        .subscribe {
+            h3 {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+
+            button {
+                background-color: $secondary-color;
+                border: none;
+                color: #fff;
+                width: 100px;
+                height: 30px;
+            }
+        }
+    }
+
+    @include for-desktop-1 {
+        footer {
+            height: 10vh;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+// Media Queries Mixins
+@mixin for-desktop-1 {
+    @media(max-width: 1220px) {
+        @content;
+
+    }
+}
+
+
+@mixin for-mobile {
+    @media(max-width: 768px) {
+        @content;
+
+    }
+
+}
+
+@mixin for-mobile-1 {
+    @media(max-width: 428px) {
+        @content;
+
+    }
+
+}
