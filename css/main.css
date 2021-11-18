@@ -167,7 +167,7 @@ footer .footer-section .subscribe button {
   min-height: 100vh;
   background-color: #fff;
   overflow: hidden;
-  background-image: url("/images/background-header.jpg");
+  background: url("/images/background-header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
